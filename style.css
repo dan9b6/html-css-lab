@@ -1,0 +1,176 @@
+body {
+  font-family: 'Poppins';
+}
+
+/*-----HEADER AND NAV------*/
+header>div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 80px;
+}
+
+.magGlass {
+  width: 25px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1em;
+  padding: 10px 25px;
+  border: none;
+}
+
+.formButton {
+  background-color: #fb3e44;
+  color: white;
+}
+
+.search {
+  border-bottom: none;
+  margin: 10px;
+}
+
+.search a {
+  text-decoration: none;
+  border: 1px solid;
+  color: black;
+  padding: 10px;
+  float: right;
+}
+
+form>input {
+  width: 500px;
+  height: 30px;
+  font-family: inherit;
+}
+
+/*-----SECTION 1------*/
+.sect1 {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(232, 217, 217, .3);
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.sect1 article {
+  width: 50%;
+  text-align: center;
+}
+
+.sect1 a {
+  text-decoration: none;
+}
+
+.buts {
+  margin-top: 40px;
+}
+
+.rBut {
+  border: none;
+  background-color: #fb3e44;
+  color: white;
+  padding: 15px 30px;
+}
+
+.cBut {
+  border: none;
+  color: black;
+  padding: 15px 30px;
+}
+
+/*-----SECTION 2-----*/
+.sect2 {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+}
+
+h2 {
+  background-color: rgba(255, 204, 53, .4);
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  margin: auto;
+}
+
+.sect2 p {
+  width: 790px;
+  text-align: center;
+}
+
+.hexagon {
+  width: 400px;
+  margin: 20px;
+}
+
+/*-----SECTION 3-----*/
+.sect3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: auto;
+  margin: 50px;
+}
+
+.sect3 img {
+  width: 40px;
+}
+
+.sect3 h5 {
+  color: #fb3e44;
+}
+
+.box {
+  padding: 15px;
+}
+
+.org {
+  text-align: center;
+  margin: 50px;
+}
+
+.org a {
+  background-color: black;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  padding: 20px 40px;
+  text-decoration: none;
+}
